@@ -8,7 +8,7 @@
     "twig tools"
   ],
   "homepage": "https://www.drupal.org/project/twig_tools",
-  "license": "GPL 2.0",
+  "license": "GPL-2.0-or-later",
   "type": "patternlab-plugin",
   "authors": [
     {
