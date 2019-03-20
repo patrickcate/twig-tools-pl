@@ -1,0 +1,39 @@
+{
+  "name": "pcate/twig-tools-pl",
+  "description": "Equivalent functions and filters for Pattern Lab that are available with the Twig Tools Drupal module.",
+  "keywords": [
+    "drupal",
+    "pattern lab",
+    "twig",
+    "twig tools"
+  ],
+  "homepage": "https://www.drupal.org/project/twig_tools",
+  "license": "GPL 2.0",
+  "type": "patternlab-plugin",
+  "authors": [
+    {
+      "name": "Patrick Cate",
+      "email": "git@patrickcate.com",
+      "homepage": "http://patrickcate.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/patrickcate/twig-tools-pl/issues",
+    "source": "https://github.com/patrickcate/twig-tools-pl"
+  },
+  "require": {
+    "php": "5.6"
+  },
+  "extra": {
+    "patternlab": {
+      "dist": {
+        "sourceDir": [
+          {
+            "filters/*": "_twig-components/filters/*"
+          }
+        ]
+      }
+    }
+  }
+}
